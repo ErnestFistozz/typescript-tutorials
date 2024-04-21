@@ -1,4 +1,3 @@
 var message = "Hello World";
-console.log(message);
-var age = 31;
-console.log("The Age ".concat(age));
+var heading = document.createElement('h1');
+document.body.appendChild(heading);

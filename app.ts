@@ -1,3 +1,4 @@
 let message: string = "Hello World";
+let heading = document.createElement('h1');
 
-console.log(message);
+document.body.appendChild(heading);
